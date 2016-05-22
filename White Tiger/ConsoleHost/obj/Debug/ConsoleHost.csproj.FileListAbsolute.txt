@@ -1,0 +1,78 @@
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\BugTracking_config.hbt
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\contact_config.hbt
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.config
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.exe
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White Tiger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\The Dark Owl Logger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\WareForms.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White Tiger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\The Dark Owl Logger.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.exe
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White_Tiger_Todo.txt
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\BugTracking_config.hbt
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\contact_config.hbt
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.config
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase_config.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\CopytoLocalTemp.bat
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.exe
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White Tiger.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\The Dark Owl Logger.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\HydrobaseSDK.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\WareForms.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\LocaleHundler.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White Tiger.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\The Dark Owl Logger.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\The Dark Owl Logger.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\HydrobaseSDK.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\HydrobaseSDK.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\WareForms.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.exe
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\WhiteTiger_Settings\roles.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\WhiteTiger_Settings\users.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\licence.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White_Tiger_Todo.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase_config.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\CopytoLocalTemp.bat
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ConsoleHost.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\bin\Debug\ICSharpCode.SharpZipLib.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\ConsoleHost\obj\Debug\ConsoleHost.pdb

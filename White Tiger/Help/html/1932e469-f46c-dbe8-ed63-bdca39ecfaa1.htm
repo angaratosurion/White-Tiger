@@ -1,0 +1,571 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>WhiteTigerService Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="WhiteTigerService class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:White_Tiger.WhiteTigerService" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
+    
+    <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
+    <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
+    <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
+    <script type="text/javascript" src="../scripts/script_manifold.js"> </script>
+    <script type="text/javascript" src="../scripts/script_feedBack.js"> </script>
+    <script type="text/javascript" src="../scripts/CheckboxMenu.js"> </script>
+    <script type="text/javascript" src="../scripts/CommonUtilities.js"> </script>
+    <meta name="container" content="White_Tiger" />
+    <meta name="file" content="1932e469-f46c-dbe8-ed63-bdca39ecfaa1" />
+    <meta name="guid" content="1932e469-f46c-dbe8-ed63-bdca39ecfaa1" />
+    
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/dropdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/dropdownHover.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
+    <div id="header">
+      <table id="topTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="../icons/collapse_all.gif" /> <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span>
+            <span>    </span>
+            <span id="devlangsDropdown" class="filter" tabindex="0">
+              <img id="devlangsDropdownImage" src="../icons/dropdown.gif" /> <label id="devlangsMenuAllLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: All </nobr></label><label id="devlangsMenuMultipleLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Multiple </nobr></label><label id="devlangsMenuCSharpLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: C# </nobr></label><label id="devlangsMenuVisualBasicLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual Basic </nobr></label><label id="devlangsMenuManagedCPlusPlusLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual C++ </nobr></label></span>
+            <span>    </span>
+            <span id="memberOptionsDropdown" class="filter" tabindex="0">
+              <img id="memberOptionsDropdownImage" src="../icons/dropdown.gif" /> <label id="memberOptionsMenuAllLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Show All </nobr></label><label id="memberOptionsMenuMultipleLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label><label id="memberOptionsMenuProtectedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label><label id="memberOptionsMenuInheritedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label></span>
+          </td>
+        </tr>
+      </table>
+      <div id="devlangsMenu">
+        <input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="CSharpCheckbox">C#</label>
+        <br />
+        <input id="VisualBasicCheckbox" type="checkbox" data="VisualBasic,vb,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="VisualBasicCheckbox">Visual Basic</label>
+        <br />
+        <input id="ManagedCPlusPlusCheckbox" type="checkbox" data="ManagedCPlusPlus,cpp,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="ManagedCPlusPlusCheckbox">Visual C++</label>
+        <br />
+      </div>
+      <div id="memberOptionsMenu">
+        <input id="ProtectedCheckbox" type="checkbox" data="Protected" value="on" onClick="SetMemberOptions(this, 'vis')" />
+        <label class="checkboxLabel" for="ProtectedCheckbox">Include Protected Members</label>
+        <br />
+        <input id="InheritedCheckbox" type="checkbox" data="Inherited" value="on" onClick="SetMemberOptions(this, 'decl')" />
+        <label class="checkboxLabel" for="InheritedCheckbox">Include Inherited Members</label>
+        <br />
+      </div>
+      <table id="bottomTable" cellpadding="0" cellspacing="0">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">White Tiger Documented Class Library</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">WhiteTigerService Methods</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td align="left">
+            <a href="d48e64f7-1646-c508-1c76-f8bd1455f191.htm">WhiteTigerService Class</a> <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a> <span id="headfeedbackarea" class="feedbackhead"><a href="#" onclick="javascript:SubmitFeedback('','White Tiger Documented Class Library','','','','%0\dYour%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report,%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed,%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.%0\A%0\d','Customer%20Feedback'); return false;">Send Feedback</a></span></td>
+        </tr>
+      </table>
+      <table id="gradientTable">
+        <tr>
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <span style="color: DarkGray"></span>
+        <p>The <a href="d48e64f7-1646-c508-1c76-f8bd1455f191.htm">WhiteTigerService</a> type exposes the following members.</p>
+        <h1 class="heading">
+          <span onclick="ExpandCollapse(methodTableToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(methodTableToggle, event)" tabindex="0">
+            <img id="methodTableToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Methods</span>
+        </h1>
+        <div id="methodTableSection" class="section" name="collapseableSection" style="">
+          <table id="memberList" class="members" frame="lhs" cellpadding="2">
+            <col width="10%" />
+            <tr>
+              <th class="iconColumn">
+							 
+						</th>
+              <th class="nameColumn">Name</th>
+              <th class="descriptionColumn">Description</th>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="3e2ca57a-fff2-ea5d-515f-4d96b17ba640.htm">AddColumns(String, String, String, String, <span class="languageSpecificText"><span class="cpp">array&lt;</span></span>Object<span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Adds given columns to the table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="00cbd241-5533-3709-e884-96a89c6f7424.htm">AddColumns(String, String, String, String, String, String, <span class="languageSpecificText"><span class="cpp">array&lt;</span></span>Object<span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span>, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Adds given columns to the table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="0d62d958-59e1-491e-4330-7c646a715681.htm">AddRow(String, String, String, String, <span class="languageSpecificText"><span class="cpp">array&lt;</span></span>Object<span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            adds the given values to the table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="91051c35-1ca3-d28a-2d2a-5cc015025ae5.htm">AddRow(String, String, String, String, String, String, <span class="languageSpecificText"><span class="cpp">array&lt;</span></span>Object<span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span>, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            adds the given values to the table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="a775c36f-0ca8-eae9-b8db-e1d1a70885d6.htm">AddRows(String, String, String, String, List<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="fs">&lt;'</span><span class="nu">(</span></span><span class="languageSpecificText"><span class="cpp">array&lt;</span></span>Object<span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="fs">&gt;</span><span class="nu">)</span></span>)</a>
+              </td>
+              <td>
+                <div class="summary">
+            adds the given List of values to the table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="6b447cc9-0eba-a05f-5b3a-644d8dd7ad82.htm">AddRows(String, String, String, String, String, String, List<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="fs">&lt;'</span><span class="nu">(</span></span><span class="languageSpecificText"><span class="cpp">array&lt;</span></span>Object<span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="fs">&gt;</span><span class="nu">)</span></span>, Boolean)</a>
+              </td>
+              <td>
+                <div class="summary">
+            adds the given values to the table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="7657020a-43b7-68f1-374f-8e725c8fdba6.htm">Backup</a>
+              </td>
+              <td>
+                <div class="summary">
+            Backups of table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="83754d65-facc-b5ea-9c4d-8b8b11dd4534.htm">CloseTable</a>
+              </td>
+              <td>
+                <div class="summary">
+            Closes the requsted table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="22772dc4-30cf-6a8e-1e1e-3c4a894dbb33.htm">CreateDataBase</a>
+              </td>
+              <td>
+                <div class="summary">
+            Create a database with the given name
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="3e72d944-15a8-4443-c188-7d662f3be4fd.htm">CreateTable</a>
+              </td>
+              <td>
+                <div class="summary">
+            create a  new table with given,root,record tag ,in the given database of the given user
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="8d8ae24e-5d2a-fe87-2f8a-595ea411b097.htm">CreateUser</a>
+              </td>
+              <td>
+                <div class="summary">
+            Creates a  new user with the given username password and passphrase
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="e12cf6c2-77dd-a3b2-20a9-e92c8cffaa14.htm">Decrypt</a>
+              </td>
+              <td>
+                <div class="summary">
+            Decrypts the table's file and returns the contents.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="08ec141f-8de1-7530-3344-794b8ef00fa0.htm">DeleteUser</a>
+              </td>
+              <td>
+                <div class="summary">
+            deletes  the user withh the given username password and passphrase
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="d72852ed-0ceb-82b1-d302-35d8a130dfab.htm">EditUser</a>
+              </td>
+              <td>
+                <div class="summary">
+            edits the user withh the given username password and passphrase
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="1465d9ca-df79-0195-1f4a-c411e70d018d.htm">Encrypt</a>
+              </td>
+              <td>
+                <div class="summary">
+            Adds the given rows and  encrypts the contents of the table using the user's password as passphrase
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a>
+              </td>
+              <td>
+                <div class="summary">Determines whether the specified <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is equal to the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/4k87zsw7" target="_blank">Finalize</a>
+              </td>
+              <td>
+                <div class="summary">Allows an <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> to attempt to free resources and perform other cleanup operations before the <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a> is reclaimed by garbage collection.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="adab8e4b-1926-c14a-98f1-fbf063f0652b.htm">Find</a>
+              </td>
+              <td>
+                <div class="summary">
+            Search  the table for the given value in gthe specified cell
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="3a059b5d-4abb-c662-00d3-e089cce926ec.htm">FindTable</a>
+              </td>
+              <td>
+                <div class="summary">
+            Find the table with the given name and username and return him
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="18b71fd3-7e33-e7b7-ed00-07c40c7c13d3.htm">FindTableIndex</a>
+              </td>
+              <td>
+                <div class="summary">
+            Searchs the table and returns it's index
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="4fea785f-dc39-20c1-24c8-be650e6fead7.htm">GetColumns</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns the columns of the requested table
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a>
+              </td>
+              <td>
+                <div class="summary">Serves as a hash function for a particular type. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a>
+              </td>
+              <td>
+                <div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="16f8fc46-8440-98d7-12b1-923fe1ace642.htm">GetUserList</a>
+              </td>
+              <td>
+                <div class="summary">
+            Gets the list of users
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="61f08385-5a70-4002-bfd8-1962153e8546.htm">GetVersion</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns the version of White tiger server
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="232c0db9-792b-c35e-9bbd-5b5355b6046f.htm">IsTableEncrypted</a>
+              </td>
+              <td>
+                <div class="summary">
+            Checks if the given name of table is encrypted and returns true if it is , otherwise returns false
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="1c5a0841-d704-981e-f9d6-98c5c431c8b9.htm">ListDatabases</a>
+              </td>
+              <td>
+                <div class="summary">
+            Returns the list of databases that the user has
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="51b88826-383e-ea1b-c0b1-6ba525147c3f.htm">ListTables</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="978ebefb-c645-2668-3625-f42c426435c8.htm">LoadTable</a>
+              </td>
+              <td>
+                <div class="summary">
+            Load table of given name belonging to  given user name , database.
+            and returns the contents in xml format
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="304dfee4-8201-afe4-1d27-fc40f26ab5d5.htm">LoadTableAsFile</a>
+              </td>
+              <td>
+                <div class="summary">
+            Load table of given name belonging to  given user name , database.
+            and returns the contents as zip archive
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="9df155b7-e31f-70b6-a80d-95d1bea03165.htm">Login</a>
+              </td>
+              <td>
+                <div class="summary">
+            authoricates with the white tiger server using the given usrname and password
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a>
+              </td>
+              <td>
+                <div class="summary">Creates a shallow copy of the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="a2397e91-342c-318f-9e0f-b7890ace0f1d.htm">RemoveRow</a>
+              </td>
+              <td>
+                <div class="summary">
+            Removes the rows that contained the specified values in primary keys
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a>
+              </td>
+              <td>
+                <div class="summary">Returns a <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">String</a> that represents the current <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="c07a6a0f-eea5-5438-829d-a0cfc66e1729.htm">UpdateTable</a>
+              </td>
+              <td>
+                <div class="summary">
+            Updates the given table 
+            </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <h1 class="heading">
+          <span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0">
+            <img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span>
+        </h1>
+        <div id="seeAlsoSection" class="section" name="collapseableSection" style="">
+          <div class="seeAlsoStyle">
+            <a href="d48e64f7-1646-c508-1c76-f8bd1455f191.htm">WhiteTigerService Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="b7af3af6-616b-5e4d-aaa4-f6feeb22cd74.htm">White_Tiger Namespace</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footerLine">
+          <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
+        </div>
+        <A NAME="feedback"></A>
+        <span id="fb" class="feedbackcss"></span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+ *test if with dom parser is working and probably throw the other  xml parser to the garbasee alogn with the json .

@@ -1,0 +1,8 @@
+com.android.internal.util
+com.android.tools.layoutlib.annotations
+net.pariskoutsioukis.TigerDroid
+net.pariskoutsioukis.TigerDroid.REST
+net.pariskoutsioukis.TigerDroid.Sqllite
+net.pariskoutsioukis.TigerDroid.json
+net.pariskoutsioukis.TigerDroid.widget
+net.pariskoutsioukis.TigerDroid.xml

@@ -1,0 +1,84 @@
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\BugTracking_config.hbt
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\contact_config.hbt
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.config
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll.config
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\The Dark Owl Logger.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\The Dark Owl Logger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WareForms.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White_Tiger_Todo.txt
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\BugTracking_config.hbt
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\contact_config.hbt
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.config
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll.config
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\HydrobaseSDK.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\The Dark Owl Logger.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WareForms.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\LocaleHundler.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\HydrobaseSDK.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\HydrobaseSDK.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\The Dark Owl Logger.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\The Dark Owl Logger.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WareForms.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WhiteTiger_Settings\roles.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WhiteTiger_Settings\users.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\licence.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White_Tiger_Todo.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\ICSharpCode.SharpZipLib.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\App.config

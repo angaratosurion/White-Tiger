@@ -1,0 +1,955 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>White Tiger</name>
+    </assembly>
+    <members>
+        <member name="T:White_Tiger.ClientManagement.ClientInfo">
+            <summary>
+            Class that represents info about client
+            </summary>
+        </member>
+        <member name="P:White_Tiger.ClientManagement.ClientInfo.Username">
+            <summary>
+            Name that client has logon with
+            </summary>
+        </member>
+        <member name="P:White_Tiger.ClientManagement.ClientInfo.IP">
+            <summary>
+            Ip address of the client
+            </summary>
+        </member>
+        <member name="P:White_Tiger.ClientManagement.ClientInfo.Port">
+            <summary>
+            Clients port
+            </summary>
+        </member>
+        <member name="P:White_Tiger.ClientManagement.ClientInfo.Table">
+            <summary>
+            Clients  table
+            </summary>
+        </member>
+        <member name="T:White_Tiger.Commands.CreateDatabase">
+            <summary>
+            Creates The Database 
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateDatabase.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateDatabase.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateDatabase.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateDatabase.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateDatabase.Type">
+            <summary>
+            the type fo command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:White_Tiger.Commands.CreateTable">
+            <summary>
+            
+            Creates the Table
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateTable.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateTable.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateTable.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.CreateTable.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.CreateTable.Type" -->
+        <member name="T:White_Tiger.Commands.DecryptTable">
+            <summary>
+            Decrypts the table
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Commands.DecryptTable.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.DecryptTable.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.DecryptTable.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.DecryptTable.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.DecryptTable.Type" -->
+        <member name="T:White_Tiger.Commands.EncryptTable">
+            <summary>
+            Encyrpts the table
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Commands.EncryptTable.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.EncryptTable.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.EncryptTable.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.EncryptTable.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.EncryptTable.Type" -->
+        <member name="M:White_Tiger.Commands.FindCommand.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.FindCommand.Type" -->
+        <member name="M:White_Tiger.Commands.FindCommand.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.FindCommand.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.FindCommand.Execute(System.String[])" -->
+        <member name="T:White_Tiger.Commands.GetColumns">
+            <summary>
+            The umber of the columns
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Commands.GetColumns.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.GetColumns.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.GetColumns.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.GetColumns.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.GetColumns.Type" -->
+        <member name="M:White_Tiger.Commands.GetVersion.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.GetVersion.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.GetVersion.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.GetVersion.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.GetVersion.Type" -->
+        <member name="M:White_Tiger.Commands.isTableEncrypted.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.isTableEncrypted.Type" -->
+        <member name="M:White_Tiger.Commands.isTableEncrypted.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.isTableEncrypted.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.isTableEncrypted.Execute(System.String[])" -->
+        <member name="M:White_Tiger.Commands.ListDatabases.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.ListDatabases.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.ListDatabases.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.ListDatabases.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.ListDatabases.Type" -->
+        <member name="M:White_Tiger.Commands.ListTables.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.ListTables.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.ListTables.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.ListTables.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.ListTables.Type" -->
+        <member name="T:White_Tiger.Commands.LoadTable">
+            <summary>
+            Load the Table
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Commands.LoadTable.Name">
+            <summary>
+            the Name of the command
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.LoadTable.Type" -->
+        <member name="M:White_Tiger.Commands.LoadTable.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.LoadTable.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.LoadTable.Execute(System.String[])" -->
+        <member name="T:White_Tiger.Commands.Login">
+            <summary>
+            Logins to the server
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.Login.Name" -->
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.Login.Type" -->
+        <member name="M:White_Tiger.Commands.Login.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.Login.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.Login.Execute(System.String[])">
+            
+             <summary>
+             Executes it
+             </summary>
+             <param name="args"></param>
+             <returns></returns>
+        </member>
+        <member name="T:White_Tiger.Commands.SaveTable">
+            <summary>
+            Updates the table
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.SaveTable.Name" -->
+        <member name="M:White_Tiger.Commands.SaveTable.Execute(System.String[])">
+            <summary>
+            Executes it
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.SaveTable.Version">
+            <summary>
+            the version
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:White_Tiger.Commands.SaveTable.Help">
+            <summary>
+            a Help text
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.Commands.SaveTable.Type" -->
+        <member name="T:White_Tiger.Config">
+            <summary>
+            Handles the configuration of the server
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Config.CreateFile">
+            <summary>
+            Creates config file
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Config.ReadConfig">
+            <summary>
+            Reads Config file
+            </summary>
+        </member>
+        <member name="T:White_Tiger.Events">
+            <summary>
+            Class that contains the events of the service
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Events.TableRowChanged(System.Object,System.Data.DataRowChangeEventArgs)">
+             <summary>
+            when a row changes it contants the client to reload table
+             </summary>
+             <param name="sender"></param>
+             <param name="ev"></param>
+        </member>
+        <member name="T:White_Tiger.prefs">
+            <summary>
+            The preferences of the server
+            </summary>
+        </member>
+        <member name="P:White_Tiger.prefs.Filesecurity">
+            <summary>
+            Gets or sets if server will check file permisions
+            </summary>
+        </member>
+        <member name="P:White_Tiger.prefs.ServiceUserName">
+            <summary>
+            Gets or sets default username of service
+            </summary>
+        </member>
+        <member name="P:White_Tiger.prefs.ServicePassword">
+            <summary>
+            Gets or sets default passworde of service
+            </summary>
+        </member>
+        <member name="M:White_Tiger.Protocols.TCP.TCPServer.OnClientConnect(System.IAsyncResult)">
+            <summary>
+            This event occures when the client will connect to the server
+            </summary>
+            <param name="asyn"></param>
+        </member>
+        <member name="M:White_Tiger.Protocols.TCP.TCPServer.WaitForData(System.Net.Sockets.Socket)">
+            <summary>
+            Start waiting for data from the client
+            </summary>
+            <param name="soc"></param>
+        </member>
+        <member name="M:White_Tiger.Protocols.TCP.TCPServer.OnDataReceived(System.IAsyncResult)">
+            <summary>
+            This call back will be executed when the server a client start transmiting data
+            </summary>
+            <param name="asyn"></param>
+        </member>
+        <member name="M:White_Tiger.Protocols.TCP.TCPServer.ExecuteCommand(System.String)">
+            <summary>
+            Searches the command sent from the client and executes it
+            </summary>
+            <param name="comman"></param>
+            <returns></returns>
+        </member>
+        <member name="T:White_Tiger.SecurityTG">
+            <summary>
+            This class handles the security of the server
+            </summary>
+        </member>
+        <member name="M:White_Tiger.SecurityTG.UserHasAccessOnFile(System.String,System.String)">
+            <summary>
+            checks if user has rights to edit the file
+            </summary>
+            <param name="username">user's name</param>
+            <param name="path">path of file name</param>
+            <returns>true if can has right to edit file false otherwise</returns>
+        </member>
+        <member name="M:White_Tiger.SecurityTG.UserHasAccessOnDirectory(System.String,System.String)">
+            <summary>
+            checks if user has rights to acess the directory
+            </summary>
+            <param name="username">user's name</param>
+            <param name="path">path of directory</param>
+            <returns>true if can has right to acess directory false otherwise</returns>
+        </member>
+        <member name="M:White_Tiger.SecurityTG.SetUserAcessOnFile(System.String,System.String)">
+            <summary>
+            sets the acess on the user as owner of the file
+            </summary>
+            <param name="username">name of user that will be owner of the file</param>
+            <param name="path">path of the file</param>
+        </member>
+        <member name="M:White_Tiger.SecurityTG.SetUserAcessOnDir(System.String,System.String)">
+            <summary>
+            sets the acess on the user as owner of the Directory
+            </summary>
+            <param name="username">name of user that will be owner of the directory</param>
+            <param name="path">path of the directory</param>
+        </member>
+        <member name="T:White_Tiger.UserManagment.UserManager">
+            <summary>
+            Class that manages the users of the pc
+            </summary>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.LoadUsers">
+            <summary>
+            Loads the Users to the memory. It doesnt work with windows autherication
+            </summary>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.LoadUsersToDataSet">
+            <summary>
+            Loads the Users to the memory. It doesnt work with windows autherication
+            
+            </summary>
+            <returns> the users in a dataset</returns>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.UpdateUsers">
+            <summary>
+            Updates the Users Database
+            </summary>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.UpdateUsers(System.Data.DataSet)">
+            <summary>
+            Updates the Users Database uing the values from the given dataset
+            </summary>
+            <param name="set">Dataset containing the new values for the user's database</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.CloseUsersTable">
+            <summary>
+            Closes the users database
+            </summary>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Creates a new user
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="description">Description of user</param>
+            <param name="hidden">true if you want to hide the user</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)" -->
+        <member name="M:White_Tiger.UserManagment.UserManager.Login(System.String,System.String)">
+            <summary>
+            Authericates the user
+            </summary>
+            <param name="username">user's name</param>
+            <param name="password">user's password</param>
+            <returns>true if is successfull false otherwise</returns>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.FindUser(System.String)">
+            <summary>
+            Search fo a user with the given username
+            </summary>
+            <param name="username">the name of the user</param>
+            <returns>the row containing information about the user</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)" -->
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.UserManagment.UserManager.DeleteUser(System.String,System.String,System.String)" -->
+        <member name="M:White_Tiger.UserManagment.UserManager.GetUserList(System.String,System.String)">
+            <summary>
+            Gets the list of users
+            </summary>
+            <param name="username">name of user</param>
+            <param name="pass">password</param>    
+            <returns>the list of users</returns>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.LoadRolesToDataSet">
+            <summary>
+            Loads the Roles to the memory. It doesnt work with windows autherication
+            
+            </summary>
+            <returns> the roles in a dataset</returns>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.UpdateRoles">
+            <summary>
+            Updates the Roles Database
+            </summary>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.UpdateRoles(System.Data.DataSet)">
+            <summary>
+            Updates the Roles Database using values from the given dataset
+            </summary>
+            <param name="set"> Dataset containing the new values</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.CloseRolesTable">
+            <summary>
+            Closes the users database
+            </summary>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.CreateRole(System.String,System.String,System.String,White_Tiger.UserManagment.RoleType)">
+            <summary>
+            Creates a new Role
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the new role</param>
+            <param name="type">type of the new role</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.CreateRole1stTime(System.String,System.String,System.String,White_Tiger.UserManagment.RoleType)">
+            <summary>
+            Creates a new Role for 1st time install only
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the new role</param>
+            <param name="type">type of the new role</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.FindRole(System.String,System.String,System.String)">
+            <summary>
+            Finds a Role with the given name
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="Role">name of the role</param>
+            <returns> Role with the given name</returns>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.EditRole(System.String,System.String,System.String,White_Tiger.UserManagment.RoleType)">
+            <summary>
+            Edit a new Role
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the new role</param>
+            <param name="type">type of the new role</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.DeleteRole(System.String,System.String,System.String)">
+            <summary>
+            deletes a  Role
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the new role</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.AttachaUserToRole(System.String,System.String,System.String)">
+            <summary>
+            Attaches a user to a Role
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the new role</param>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.IsUserOnARole(System.String,System.String,System.String)">
+            <summary>
+            Chescks to see if  a userbelongs to the given a Role
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the  role</param>
+            <returns>True if it belongs</returns>
+        </member>
+        <member name="M:White_Tiger.UserManagment.UserManager.DetachaUserFromRole(System.String,System.String,System.String)">
+            <summary>
+            detaches a user from a Role
+            </summary>
+            <param name="username">name of user</param>
+            <param name="password">password</param>
+            <param name="role">name of the new role</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.GetVersion">
+            <summary>
+            Returns the version of White tiger server
+            </summary>
+            <returns>Returns the version of White tiger server</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.Login(System.String,System.String)">
+            <summary>
+            authoricates with the white tiger server using the given usrname and password
+            </summary>
+            <param name="username">name of the user</param>
+            <param name="password">password of the user</param>
+            <returns>truw if logins successfuly or false if doesnt</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.CreateDataBase(System.String,System.String,System.String)">
+            <summary>
+            Create a database with the given name
+            </summary>
+            <param name="username">user's name that database belogs</param>
+            <param name="pass">user's password</param>
+            <param name="dbname">name of the database</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])">
+            <summary>
+            create a  new table with given,root,record tag ,in the given database of the given user
+            </summary>
+            <param name="root">the root element that xml file will have</param>
+            <param name="recordtag">main child element that will contain the cell's of the 
+            table as children</param>
+            <param name="username">name of the user that table belongs</param>
+            <param name="pass">the password of the user</param>
+            <param name="dbname">name of the database</param>
+            <param name="tablename">table's name</param>
+            <param name="TableCells">list of cells</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Load table of given name belonging to  given user name , database.
+            and returns the contents in xml format
+            </summary>
+            <param name="recordtag">Child that contains the cells as children</param>
+            <param name="username">name of user table belongs to </param>
+            <param name="pass">password of username</param>
+            <param name="dbname">name of the database table belongs to</param>
+            <param name="tablename">name of the table </param>
+            <returns>returns the contents in xml format</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})">
+            <summary>
+            Updates the given table 
+            </summary>
+            <param name="root">the root element the xml file will have </param>
+            <param name="recordtag">the xml element that will represent the record</param>
+            <param name="username">name of user that table belongs to</param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database that table belongs to </param>
+            <param name="tablename">name of the table</param>
+            <param name="rows">Rows to addes in table</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.FindTable(System.String,System.String,System.String)">
+            <summary>
+            Find the table with the given name and username and return him
+            </summary>
+            <param name="username"> name of user's that table belongs to</param>
+            <param name="pass">users password</param>
+            <param name="tablename">name of table</param>
+            <returns>the table </returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.FindTableIndex(System.String,System.String,System.String)">
+            <summary>
+            Searchs the table and returns it's index
+            </summary>
+            <param name="username">user's name</param>
+            <param name="pass">user's pasword</param>
+            <param name="tablename">name of the table </param>
+            <returns>the index in the datatable collection you are searching </returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)">
+            <summary>
+            Adds the given rows and  encrypts the contents of the table using the user's password as passphrase
+            </summary>
+            <param name="root">root element of xml files</param>
+            <param name="recordtag">element that holds the cells</param>
+            <param name="username">user's name table belongs to</param>
+            <param name="dbname">name of database</param>
+            <param name="tablename">name of table</param>
+            <param name="rows">rows to be added</param>
+            <param name="pass">password of userfor autherication</param>
+            <param name="alg">cryptographic algorithm to be used</param>
+            <param name="hashalg">hashing algorithm to be used for the creation of password</param>
+            <param name="passphrase">the  passhprase  will be usedfor encryption</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Decrypts the table's file and returns the contents.
+            </summary>
+            <param name="root">root element of xml files</param>
+            <param name="recordtag"> >element that holds the cells </param>
+            <param name="username"> user's name table belongs to </param>
+            <param name="dbname">name of database </param>
+            <param name="tablename"> name of table </param>
+            <param name="pass">password of user</param>
+            <param name="alg">cryptographic algorithm to be used</param>
+            <param name="hashalg">hashing algorithm to be used for the creation of password</param>
+            <param name="passphrase">passphrse to be used for decryption</param>
+            <returns>contents of the table</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.Backup(System.String,System.String,System.String,System.String)">
+            <summary>
+            Backups of table
+            </summary>
+            <param name="username">user's name table belongs to</param>
+            <param name="dbname">name of database</param>
+            <param name="table"> name of table</param>
+            <param name="pass">password of user</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Search  the table for the given value in gthe specified cell
+            </summary>
+            <param name="username"> user's name table belongs to </param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database</param>
+            <param name="tablename">name of table</param>
+            <param name="cell">cell that contains the value we search for</param>
+            <param name="value">value to look for</param>
+            <returns>the rows of the table containing the value we look for</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.Object[])">
+            <summary>
+            adds the given values to the table
+            </summary>
+            <param name="username">user's name table belongs to</param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database</param>
+            <param name="table">name of table</param>
+            <param name="vals">values to add</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})">
+            <summary>
+            adds the given List of values to the table
+            </summary>
+            <param name="username">user's name table belongs to</param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database</param>
+            <param name="table">name of table</param>
+            <param name="vals">list of values to add</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)">
+            <summary>
+            adds the given values to the table
+            </summary>
+            <param name="root">root element of xml files</param>
+            <param name="recordtag"> >element that holds the cells </param>
+            <param name="username">user's name table belongs to</param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database</param>
+            <param name="table">name of table</param>
+            <param name="vals">values to add</param>
+            <param name="autoupd">if true the auto saves the table</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)">
+            <summary>
+            adds the given values to the table
+            </summary>
+            <param name="root">root element of xml files</param>
+            <param name="recordtag"> element that holds the cells </param>
+            <param name="username">user's name table belongs to</param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database</param>
+            <param name="table">name of table</param>
+            <param name="vals">values to add</param>
+            <param name="autoupd">if true the auto saves the table</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])">
+            <summary>
+            Removes the rows that contained the specified values in primary keys
+            </summary>
+            <param name="username">user's name table belongs to</param>
+            <param name="pass">password of user</param>
+            <param name="dbname">name of database</param>
+            <param name="primkeys">values that must have the rows to the primary key values</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.ListDatabases(System.String,System.String)">
+            <summary>
+            Returns the list of databases that the user has
+            </summary>
+            <param name="username">user's name</param>
+            <param name="pass">user's pass</param>
+            <returns>Returns the list of databases that the user has</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:White_Tiger.WhiteTigerService.ListTables(System.String,System.String,System.String)" -->
+        <member name="M:White_Tiger.WhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.Object[])">
+            <summary>
+            Adds given columns to the table
+            </summary>
+            <param name="username">user's name</param>
+            <param name="pass">user's password</param>
+            <param name="dbname">name of database</param>
+            <param name="table">name of table</param>
+            <param name="cols">name of columns to add.</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)">
+            <summary>
+            Adds given columns to the table
+            </summary>
+            <param name="root">root element of xml files</param>
+            <param name="recordtag"> element that holds the cells </param>
+            <param name="username">user's name</param>
+            <param name="pass">user's password</param>
+            <param name="dbname">name of database</param>
+            <param name="table">name of table</param>
+            <param name="cols">name of columns to add.</param>
+            <param name="autoupd">if true auto saves the table</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)">
+            <summary>
+            Checks if the given name of table is encrypted and returns true if it is , otherwise returns false
+            </summary>
+            <param name="username">user's name</param>
+            <param name="pass">user's password</param>
+            <param name="dbname">name of database</param>
+            <param name="tablename">name of table</param>
+            <returns>returns true if it is , otherwise returns false</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.CloseTable(System.String,System.String,System.String,System.String)">
+            <summary>
+            Closes the requsted table
+            </summary>
+            <param name="username">user's name</param>
+            <param name="pass">user's password</param>
+            <param name="dbname">name of database</param>
+            <param name="tablename">name of table</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)">
+            <summary>
+            Returns the columns of the requested table
+            </summary>
+            <param name="username">user's name</param>
+            <param name="pass">user's password</param>
+            <param name="dbname">name of database</param>
+            <param name="tablename">name of table</param>
+            <returns> the columns of the requested table </returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates a  new user with the given username password and passphrase
+            </summary>
+            <param name="username">Name of an Administrator</param>
+            <param name="pass"> Administrator's password</param>
+            <param name="newuser">The name of the new user</param>
+            <param name="newpass">The password of the new user</param>
+            <param name="passphrase">The passphrase of the new user</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.GetUserList(System.String,System.String)">
+            <summary>
+            Gets the list of users
+            </summary>
+            <param name="username">Name of an Administrator</param>
+            <param name="pass"> Administrator's password</param>
+            <returns> the list of users</returns>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.EditUser(System.String,System.String,System.String,System.String)">
+            <summary>
+            edits the user withh the given username password and passphrase
+            </summary>
+            <param name="username">Name of an Administrator</param>
+            <param name="pass">Name of Administrator's password</param>
+            <param name="newuser">The name of the new user</param>
+            <param name="newpass">The password of the new user</param>
+            <param name="passphrase">The passphrase of the new user</param>
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.DeleteUser(System.String,System.String,System.String)">
+            <summary>
+            deletes  the user withh the given username password and passphrase
+            </summary>
+            <param name="username">Name of an Administrator</param>
+            <param name="pass">Name of Administrator's password</param>
+            <param name="deluser">Tuser to be deleted</param>        
+        </member>
+        <member name="M:White_Tiger.WhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Load table of given name belonging to  given user name , database.
+            and returns the contents as zip archive
+            </summary>
+            <param name="recordtag">Child that contains the cells as children</param>
+            <param name="username">name of user table belongs to </param>
+            <param name="pass">password of username</param>
+            <param name="dbname">name of the database table belongs to</param>
+            <param name="tablename">name of the table </param>
+            <returns>returns the contents as zip archive</returns>
+        </member>
+        <member name="T:White_Tiger.WhiteTigerServiceJson">
+            <summary>
+            This is the Json implementation of WhiteTiger Service  it basically  does the same as the SOAP one 
+            just initialize the CommandModel and oyu are ready
+            </summary>
+        </member>
+    </members>
+</doc>

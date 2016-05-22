@@ -1,0 +1,14 @@
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\testclient.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\testclient.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\testclient.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\WareForms.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug no batch\WareForms.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug no batch\testclient.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug no batch\testclient.pdb

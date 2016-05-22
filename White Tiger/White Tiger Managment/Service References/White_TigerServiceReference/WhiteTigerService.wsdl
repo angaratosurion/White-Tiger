@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WhiteTigerService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/White_Tiger/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/White_Tiger/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/White_Tiger/?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/White_Tiger/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/White_Tiger.DataContracts" />
+      <xsd:import schemaLocation="http://localhost/White_Tiger/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWhiteTigerService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CreateDataBase_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDataBase" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CreateDataBase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDataBaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CreateTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateTable" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CreateTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_LoadTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTable" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_LoadTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_LoadTableAsFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTableAsFile" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_LoadTableAsFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadTableAsFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_UpdateTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTable" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_UpdateTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Encrypt_InputMessage">
+    <wsdl:part name="parameters" element="tns:Encrypt" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Encrypt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EncryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Decrypt_InputMessage">
+    <wsdl:part name="parameters" element="tns:Decrypt" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Decrypt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DecryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Backup_InputMessage">
+    <wsdl:part name="parameters" element="tns:Backup" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Backup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BackupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_GetVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_GetVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Find_InputMessage">
+    <wsdl:part name="parameters" element="tns:Find" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_Find_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_FindTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindTable" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_FindTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_AddRow_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddRow" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_AddRow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddRowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_AddRows_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddRows" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_AddRows_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddRowsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_RemoveRow_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveRow" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_RemoveRow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveRowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_ListDatabases_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListDatabases" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_ListDatabases_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListDatabasesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_ListTables_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListTables" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_ListTables_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListTablesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_AddColumns_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddColumns" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_AddColumns_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddColumnsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_IsTableEncrypted_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsTableEncrypted" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_IsTableEncrypted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsTableEncryptedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CloseTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:CloseTable" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CloseTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CloseTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CreateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUser" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_CreateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_GetUserList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserList" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_GetUserList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_EditUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditUser" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_EditUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IWhiteTigerService_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWhiteTigerService">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/Login" message="tns:IWhiteTigerService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/LoginResponse" message="tns:IWhiteTigerService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDataBase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/CreateDataBase" message="tns:IWhiteTigerService_CreateDataBase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/CreateDataBaseResponse" message="tns:IWhiteTigerService_CreateDataBase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/CreateTable" message="tns:IWhiteTigerService_CreateTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/CreateTableResponse" message="tns:IWhiteTigerService_CreateTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/LoadTable" message="tns:IWhiteTigerService_LoadTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/LoadTableResponse" message="tns:IWhiteTigerService_LoadTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadTableAsFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/LoadTableAsFile" message="tns:IWhiteTigerService_LoadTableAsFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/LoadTableAsFileResponse" message="tns:IWhiteTigerService_LoadTableAsFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/UpdateTable" message="tns:IWhiteTigerService_UpdateTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/UpdateTableResponse" message="tns:IWhiteTigerService_UpdateTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Encrypt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/Encrypt" message="tns:IWhiteTigerService_Encrypt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/EncryptResponse" message="tns:IWhiteTigerService_Encrypt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Decrypt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/Decrypt" message="tns:IWhiteTigerService_Decrypt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/DecryptResponse" message="tns:IWhiteTigerService_Decrypt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Backup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/Backup" message="tns:IWhiteTigerService_Backup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/BackupResponse" message="tns:IWhiteTigerService_Backup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/GetVersion" message="tns:IWhiteTigerService_GetVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/GetVersionResponse" message="tns:IWhiteTigerService_GetVersion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Find">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/Find" message="tns:IWhiteTigerService_Find_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/FindResponse" message="tns:IWhiteTigerService_Find_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/FindTable" message="tns:IWhiteTigerService_FindTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/FindTableResponse" message="tns:IWhiteTigerService_FindTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddRow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/AddRow" message="tns:IWhiteTigerService_AddRow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/AddRowResponse" message="tns:IWhiteTigerService_AddRow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddRows">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/AddRows" message="tns:IWhiteTigerService_AddRows_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/AddRowsResponse" message="tns:IWhiteTigerService_AddRows_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveRow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/RemoveRow" message="tns:IWhiteTigerService_RemoveRow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/RemoveRowResponse" message="tns:IWhiteTigerService_RemoveRow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListDatabases">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/ListDatabases" message="tns:IWhiteTigerService_ListDatabases_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/ListDatabasesResponse" message="tns:IWhiteTigerService_ListDatabases_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListTables">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/ListTables" message="tns:IWhiteTigerService_ListTables_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/ListTablesResponse" message="tns:IWhiteTigerService_ListTables_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddColumns">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/AddColumns" message="tns:IWhiteTigerService_AddColumns_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/AddColumnsResponse" message="tns:IWhiteTigerService_AddColumns_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsTableEncrypted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/IsTableEncrypted" message="tns:IWhiteTigerService_IsTableEncrypted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/IsTableEncryptedResponse" message="tns:IWhiteTigerService_IsTableEncrypted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/CloseTable" message="tns:IWhiteTigerService_CloseTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/CloseTableResponse" message="tns:IWhiteTigerService_CloseTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/CreateUser" message="tns:IWhiteTigerService_CreateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/CreateUserResponse" message="tns:IWhiteTigerService_CreateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/GetUserList" message="tns:IWhiteTigerService_GetUserList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/GetUserListResponse" message="tns:IWhiteTigerService_GetUserList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/EditUser" message="tns:IWhiteTigerService_EditUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/EditUserResponse" message="tns:IWhiteTigerService_EditUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWhiteTigerService/DeleteUser" message="tns:IWhiteTigerService_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWhiteTigerService/DeleteUserResponse" message="tns:IWhiteTigerService_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="service" type="tns:IWhiteTigerService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDataBase">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/CreateDataBase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateTable">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/CreateTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTable">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/LoadTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTableAsFile">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/LoadTableAsFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTable">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/UpdateTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Encrypt">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/Encrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Decrypt">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/Decrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Backup">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/Backup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/GetVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Find">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/Find" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindTable">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/FindTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddRow">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/AddRow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddRows">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/AddRows" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveRow">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/RemoveRow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListDatabases">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/ListDatabases" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListTables">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/ListTables" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddColumns">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/AddColumns" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsTableEncrypted">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/IsTableEncrypted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseTable">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/CloseTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/CreateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserList">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/GetUserList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditUser">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/EditUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://tempuri.org/IWhiteTigerService/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WhiteTigerService">
+    <wsdl:port name="service" binding="tns:service">
+      <soap:address location="http://localhost/White_Tiger/httpservice" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

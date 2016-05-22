@@ -1,0 +1,33 @@
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\WhiteTiger_Settings\roles.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\WhiteTiger_Settings\users.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\licence.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\White_Tiger_Todo.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\White Tiger.dll.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Common.Logging.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Aop.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Core.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Rest.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\WareForms.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\ICSharpCode.SharpZipLib.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Aop.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Aop.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Core.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Core.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Rest.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\Spring.Rest.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug no batch\WareForms.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug no batch\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug no batch\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug no batch\White Tiger.csprojResolveAssemblyReference.cache

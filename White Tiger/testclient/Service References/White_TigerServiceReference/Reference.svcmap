@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bcf4d0da-81b5-46e2-9388-a8357ad06d73" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/White_Tiger/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="1ecacc24-9941-4d6c-aba4-57bd7a1eb2ac" SourceId="1" SourceUrl="http://localhost/White_Tiger/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="76d2b318-b126-4c99-8140-b224d2ffd9f2" SourceId="1" SourceUrl="http://localhost/White_Tiger/?xsd=xsd4" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="685dc94b-3828-4112-b05e-5cb7b2d2db2f" SourceId="1" SourceUrl="http://localhost/White_Tiger/?xsd=xsd3" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="74534353-3a7d-4e5b-b5e1-5717473817ea" SourceId="1" SourceUrl="http://localhost/White_Tiger/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="b0b5ab6e-0b09-4460-9a62-dc7d71e6d106" SourceId="1" SourceUrl="http://localhost/White_Tiger/?disco" />
+    <MetadataFile FileName="item4.xsd" MetadataType="Schema" ID="abf59220-835b-411d-8cd1-8be7f6b28520" SourceId="1" SourceUrl="http://localhost/White_Tiger/?xsd=xsd1" />
+    <MetadataFile FileName="WhiteTigerService.wsdl" MetadataType="Wsdl" ID="5715806e-1043-4215-b6f1-37d6e95278ad" SourceId="1" SourceUrl="http://localhost/White_Tiger/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

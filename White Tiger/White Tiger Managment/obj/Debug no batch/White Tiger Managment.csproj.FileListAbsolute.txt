@@ -1,0 +1,55 @@
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\White Tiger Managment.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\WhiteTiger_Settings\roles.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\WhiteTiger_Settings\users.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\Hydrobase_config.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\licence.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\White_Tiger_Todo.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\White Tiger Managment.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\White Tiger Managment.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\el-GR\White Tiger Managment.resources.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\en\White Tiger Managment.resources.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\Common.Logging.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\HydroMultyUser.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\WareForms.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\The Dark Owl Logger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\LocaleHundler.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\HydroMultyUser.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\ICSharpCode.SharpZipLib.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\WareForms.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\The Dark Owl Logger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\The Dark Owl Logger.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\bin\Debug no batch\LocaleHundler.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White Tiger Managment.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.AboutBox.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.AddCols.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.ChangesCellsPosition.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.EditCell.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.findwnd.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.frmResults.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.MainWindow.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.Properties.Resources.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.SelectDB.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.TableList.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.frmEdit.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.Login.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.TableCreation.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.UserManagment.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.findwnd.el-GR.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White_Tiger_Managment.findwnd.en.resources
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White Tiger Managment.csproj.GenerateResource.Cache
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\el-GR\White Tiger Managment.resources.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\en\White Tiger Managment.resources.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White Tiger Managment.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger Managment\obj\Debug no batch\White Tiger Managment.pdb

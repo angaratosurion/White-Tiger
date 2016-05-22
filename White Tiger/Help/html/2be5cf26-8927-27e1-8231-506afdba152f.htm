@@ -1,0 +1,262 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>CommandModel Properties</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="CommandModel class, properties" />
+    <meta name="Microsoft.Help.Id" content="Properties.T:White_Tiger.DataContracts.CommandModel" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
+    
+    <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
+    <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
+    <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
+    <script type="text/javascript" src="../scripts/script_manifold.js"> </script>
+    <script type="text/javascript" src="../scripts/script_feedBack.js"> </script>
+    <script type="text/javascript" src="../scripts/CheckboxMenu.js"> </script>
+    <script type="text/javascript" src="../scripts/CommonUtilities.js"> </script>
+    <meta name="container" content="White_Tiger.DataContracts" />
+    <meta name="file" content="2be5cf26-8927-27e1-8231-506afdba152f" />
+    <meta name="guid" content="2be5cf26-8927-27e1-8231-506afdba152f" />
+    
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/dropdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/dropdownHover.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
+    <div id="header">
+      <table id="topTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="../icons/collapse_all.gif" /> <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span>
+            <span>    </span>
+            <span id="devlangsDropdown" class="filter" tabindex="0">
+              <img id="devlangsDropdownImage" src="../icons/dropdown.gif" /> <label id="devlangsMenuAllLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: All </nobr></label><label id="devlangsMenuMultipleLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Multiple </nobr></label><label id="devlangsMenuCSharpLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: C# </nobr></label><label id="devlangsMenuVisualBasicLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual Basic </nobr></label><label id="devlangsMenuManagedCPlusPlusLabel" for="devlangsDropdownImage" style="display: none;"><nobr>Code: Visual C++ </nobr></label></span>
+            <span>    </span>
+            <span id="memberOptionsDropdown" class="filter" tabindex="0">
+              <img id="memberOptionsDropdownImage" src="../icons/dropdown.gif" /> <label id="memberOptionsMenuAllLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Show All </nobr></label><label id="memberOptionsMenuMultipleLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label><label id="memberOptionsMenuProtectedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label><label id="memberOptionsMenuInheritedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label></span>
+          </td>
+        </tr>
+      </table>
+      <div id="devlangsMenu">
+        <input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="CSharpCheckbox">C#</label>
+        <br />
+        <input id="VisualBasicCheckbox" type="checkbox" data="VisualBasic,vb,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="VisualBasicCheckbox">Visual Basic</label>
+        <br />
+        <input id="ManagedCPlusPlusCheckbox" type="checkbox" data="ManagedCPlusPlus,cpp,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="ManagedCPlusPlusCheckbox">Visual C++</label>
+        <br />
+      </div>
+      <div id="memberOptionsMenu">
+        <input id="ProtectedCheckbox" type="checkbox" data="Protected" value="on" onClick="SetMemberOptions(this, 'vis')" />
+        <label class="checkboxLabel" for="ProtectedCheckbox">Include Protected Members</label>
+        <br />
+        <input id="InheritedCheckbox" type="checkbox" data="Inherited" value="on" onClick="SetMemberOptions(this, 'decl')" />
+        <label class="checkboxLabel" for="InheritedCheckbox">Include Inherited Members</label>
+        <br />
+      </div>
+      <table id="bottomTable" cellpadding="0" cellspacing="0">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">White Tiger Documented Class Library</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">CommandModel Properties</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td align="left">
+            <a href="13f67cc6-76eb-dcf1-8106-f83197145884.htm">CommandModel Class</a> <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a> <span id="headfeedbackarea" class="feedbackhead"><a href="#" onclick="javascript:SubmitFeedback('','White Tiger Documented Class Library','','','','%0\dYour%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report,%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed,%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.%0\A%0\d','Customer%20Feedback'); return false;">Send Feedback</a></span></td>
+        </tr>
+      </table>
+      <table id="gradientTable">
+        <tr>
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <span style="color: DarkGray"></span>
+        <p>The <a href="13f67cc6-76eb-dcf1-8106-f83197145884.htm">CommandModel</a> type exposes the following members.</p>
+        <h1 class="heading">
+          <span onclick="ExpandCollapse(propertyTableToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(propertyTableToggle, event)" tabindex="0">
+            <img id="propertyTableToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Properties</span>
+        </h1>
+        <div id="propertyTableSection" class="section" name="collapseableSection" style="">
+          <table id="memberList" class="members" frame="lhs" cellpadding="2">
+            <col width="10%" />
+            <tr>
+              <th class="iconColumn">
+							 
+						</th>
+              <th class="nameColumn">Name</th>
+              <th class="descriptionColumn">Description</th>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="e1be8481-cffe-918a-c4c5-92d0d924351d.htm">algorith</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="c7745ff0-2228-6629-e5f8-18959c6e78d0.htm">commandname</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="645e4227-7492-8e3a-59e0-86ab2ef4f075.htm">data</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="26561346-6095-e833-202b-a85f3b87be12.htm">dataformat</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="7a2371e3-24cd-9d7f-9d6d-0f030c132f08.htm">dbname</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="76d814ff-851e-5176-1549-a0c02aabe727.htm">exception</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="1dbf8494-440e-dc53-8327-3b59b5c672c4.htm">friendlyerrormsg</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="3e8ca3ab-70c4-208a-7a31-e37df29c48cf.htm">hashalg</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="ef6be178-0ddf-45e9-70d8-6d417e9a26bc.htm">passphrase</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="b39f9ac1-ee7c-1411-1c19-3d7b4c44b6a5.htm">password</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="d747a91a-17cf-306b-db6f-aaf2b477bd7f.htm">recordtag</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="c7e97560-9438-e959-337b-812a29024ed9.htm">root</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="356f614f-e504-7070-bc82-2d95da6f187d.htm">tablename</a>
+              </td>
+              <td />
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubproperty.gif" alt="Public property" title="Public property" />
+              </td>
+              <td>
+                <a href="d0f70525-12b0-c7da-82a5-126a3d7429bb.htm">username</a>
+              </td>
+              <td />
+            </tr>
+          </table>
+        </div>
+        <h1 class="heading">
+          <span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0">
+            <img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span>
+        </h1>
+        <div id="seeAlsoSection" class="section" name="collapseableSection" style="">
+          <div class="seeAlsoStyle">
+            <a href="13f67cc6-76eb-dcf1-8106-f83197145884.htm">CommandModel Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="d769aa02-68dd-2bed-a255-1b6b078d359c.htm">White_Tiger.DataContracts Namespace</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footerLine">
+          <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
+        </div>
+        <A NAME="feedback"></A>
+        <span id="fb" class="feedbackcss"></span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\WhiteTiger_Settings\roles.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\WhiteTiger_Settings\users.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\licence.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\White_Tiger_Todo.txt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\BugTracking_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\contact_config.hbt
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\WTServiceServiceInstaller.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\WTServiceServiceInstaller.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\WTServiceServiceInstaller.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\ServiceTools.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\White Tiger.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\ICSharpCode.SharpZipLib.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\White Tiger.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\White Tiger.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\bin\Release\ICSharpCode.SharpZipLib.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\obj\Release\WTServiceServiceInstaller.csprojResolveAssemblyReference.cache
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\obj\Release\WTServiceServiceInstaller.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\WTServiceServiceInstaller\obj\Release\WTServiceServiceInstaller.pdb

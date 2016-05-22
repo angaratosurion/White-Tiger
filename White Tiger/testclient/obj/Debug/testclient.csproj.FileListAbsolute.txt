@@ -1,0 +1,35 @@
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.exe.config
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.exe
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\The Dark Owl Logger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\HydrobaseSDK.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\LocaleHundler.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\Hydrobase.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\WareForms.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\The Dark Owl Logger.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\HydrobaseSDK.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\HydrobaseSDK.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\LocaleHundler.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.exe
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.exe.config
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.exe
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.exe
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\testclient.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Debug\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Debug\testclient.csprojResolveAssemblyReference.cache

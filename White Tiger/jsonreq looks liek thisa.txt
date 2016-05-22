@@ -1,0 +1,1 @@
+{"recordtag":"eggrafi","passphrase":"none","root":"pynakas","exception":"none","data":"none","password":"serres1984","username":"Administrator","tablename":"books","dbname":"books","hashalg":"none","dataformat":"none","friendlyerrormsg":"none","algorith":"none","commandname":"IsTableEncrypted"}

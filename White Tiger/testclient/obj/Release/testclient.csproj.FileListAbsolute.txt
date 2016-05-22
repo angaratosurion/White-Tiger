@@ -1,0 +1,50 @@
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.exe.config
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.exe
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\The Dark Owl Logger.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\HydrobaseSDK.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\LocaleHundler.dll
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Hydrobase.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Hydrobase.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\WareForms.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\The Dark Owl Logger.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\The Dark Owl Logger.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\HydrobaseSDK.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\HydrobaseSDK.xml
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\LocaleHundler.pdb
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\ResolveAssemblyReference.cache
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\testclient.exe
+F:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\testclient.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.exe.config
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.exe
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\The Dark Owl Logger.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\HydrobaseSDK.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\LocaleHundler.dll
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Hydrobase.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Hydrobase.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\WareForms.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\The Dark Owl Logger.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\The Dark Owl Logger.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\HydrobaseSDK.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\HydrobaseSDK.xml
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\LocaleHundler.pdb
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\ResolveAssemblyReference.cache
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\testclient.exe
+G:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\testclient.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\testclient.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Hydrobase.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Hydrobase.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\bin\Release\NLog.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\testclient.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\testclient\obj\Release\testclient.pdb

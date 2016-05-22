@@ -1,0 +1,7 @@
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\bin\Debug no batch\Getacess.exe.config
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\bin\Debug no batch\Getacess.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\bin\Debug no batch\Getacess.pdb
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\bin\Debug no batch\Newtonsoft.Json.dll
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\bin\Debug no batch\Newtonsoft.Json.xml
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\obj\Debug no batch\Getacess.exe
+Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Getacess\obj\Debug no batch\Getacess.pdb

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BCB4CFA-8F03-4ECF-A65E-4938DEB8EC43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>White_Tiger_Managment</RootNamespace>
+    <AssemblyName>White Tiger Managment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tiger.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>White_Tiger_Managment.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Common.Logging.3.0.0-Alpha1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>..\packages\Common.Logging.Core.3.0.0-Alpha1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicConfigurationManager">
+      <HintPath>..\White Tiger\DynamicConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Hydrobase, Version=1.5.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Hydrobase.1.5.1.4\lib\net40\Hydrobase.dll</HintPath>
+    </Reference>
+    <Reference Include="HydroMultyUser">
+      <HintPath>..\..\..\..\HydroMultyUser\HydroMultyUser\bin\Release\HydroMultyUser.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.4.0, Culture=neutral, PublicKeyToken=9dea7c6e17aa31ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ICSharpCode.SharpZipLib.Patched.0.86.4\lib\net20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=3.2.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NLog.3.2.0.0\lib\net40\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Discovery" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCols.Designer.cs">
+      <DependentUpon>AddCols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangesCellsPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangesCellsPosition.designer.cs">
+      <DependentUpon>ChangesCellsPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCell.designer.cs">
+      <DependentUpon>EditCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="findwnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="findwnd.designer.cs">
+      <DependentUpon>findwnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResults.designer.cs">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\White_TigerServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TableList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableList.Designer.cs">
+      <DependentUpon>TableList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdit.Designer.cs">
+      <DependentUpon>frmEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCols.resx">
+      <DependentUpon>AddCols.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangesCellsPosition.resx">
+      <DependentUpon>ChangesCellsPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCell.resx">
+      <DependentUpon>EditCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="findwnd.el-GR.resx">
+      <DependentUpon>findwnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="findwnd.en.resx">
+      <DependentUpon>findwnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="findwnd.resx">
+      <DependentUpon>findwnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResults.resx">
+      <DependentUpon>frmResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDB.resx">
+      <DependentUpon>SelectDB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableList.resx">
+      <DependentUpon>TableList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdit.resx">
+      <DependentUpon>frmEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableCreation.resx">
+      <DependentUpon>TableCreation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDB.Designer.cs">
+      <DependentUpon>SelectDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagment.Designer.cs">
+      <DependentUpon>UserManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util.cs" />
+    <Compile Include="TableCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableCreation.Designer.cs">
+      <DependentUpon>TableCreation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserManagment.resx">
+      <DependentUpon>UserManagment.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BugTracking_config.hbt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Documentation.chm" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Service References\White_TigerServiceReference\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\White_TigerServiceReference\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\White_TigerServiceReference\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\White_TigerServiceReference\item3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\White_TigerServiceReference\item4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\White_TigerServiceReference\WhiteTigerService.wsdl" />
+    <None Include="Service References\White_TigerServiceReference\White_Tiger_Managment.White_TigerServiceReference.RemoteFileInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="ΥδροΒάση%28HydroBase%29Documentation.chm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\White Tiger\White Tiger.csproj">
+      <Project>{1912142A-C641-4AE7-91C8-C6B216CA50F5}</Project>
+      <Name>White Tiger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-open.png" />
+    <None Include="Resources\network-receive.png" />
+    <None Include="Resources\document-new.png" />
+    <Content Include="Hydrobase_config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\White_TigerServiceReference\item.disco" />
+    <None Include="Service References\White_TigerServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\White_TigerServiceReference\configuration.svcinfo" />
+    <None Include="Service References\White_TigerServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="tiger.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\White_TigerServiceReference\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

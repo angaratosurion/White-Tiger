@@ -1,0 +1,9 @@
+﻿White Tiger
+5/7/2012
+To fix the POsT(WebInvoke) Methods of the WhitTiger Service Interface and find a away to pass an array
+(Note: Probably a good i will be to make "functions that accpet string instead of arrays)
+7/7/2012
+The password and pashprase to pass encrypted in the service from the client
+6/6/2014
+*implent alternative autherication mechanism.
+* automated and scheduled commands based on c# scripts like backups

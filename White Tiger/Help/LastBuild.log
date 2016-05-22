@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.8.0" projectFile="D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger.shfbproj" started="15/2/2015 10:07:54 μμ">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\White Tiger.csproj
+    Found project &#39;D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\White Tiger.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Release\White Tiger.dll&#39;
+
+References to include (excluding framework assemblies):
+    Common.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL
+    Common.Logging.Core
+    DynamicConfigurationManager
+    Hydrobase, Version=1.5.1.4, Culture=neutral, processorArchitecture=MSIL
+    ICSharpCode.SharpZipLib, Version=0.86.4.0, Culture=neutral, PublicKeyToken=9dea7c6e17aa31ff, processorArchitecture=MSIL
+    Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+    NLog, Version=3.2.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL
+    Spring.Aop
+    Spring.Core
+    Spring.Rest
+
+Copying XML comments files
+    D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Release\White Tiger.XML -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\White Tiger.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.7120
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0570
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.4.0)
+  Copyright ? 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loaded 1 assemblies for reflection and 10 dependency assemblies.
+  Info: Wrote information on 6 namespaces, 35 types, and 280 members
+  XslTransform (v2.7.4.0)
+  Copyright ? 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:14.7538
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0960
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    83 attribute nodes removed
+    0 explicit interface implementations removed
+    0 local and base class EII elements removed
+    Last step completed in 00:00:00.2480
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.4.0)
+  Copyright ? 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2.7.4.0)
+  Copyright ? 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:07.8574
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.1030
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0270
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.4.0)
+  Copyright ? 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:02.1491
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:06.5984
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.1490
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.4.0)
+  Copyright ? 2006-2013, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved.
+  Info: Loading configuration...
+  Info: Processing topics...
+  Warn: ShowMissingComponent: [N:White_Tiger] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Config.confile] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Config.defaultpass] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Config.defaultusername] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Events.TableRowChanged(System.Object,System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Events.TableRowChanged(System.Object,System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;ev&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.IWhiteTigerService] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;cols&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddColumns(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;autoupd&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;vals&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRow(System.String,System.String,System.String,System.String,System.String,System.String,System.Object[],System.Boolean)] Missing &lt;param name=&quot;autoupd&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;vals&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.AddRows(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.Boolean)] Missing &lt;param name=&quot;autoaupd&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Backup(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Backup(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Backup(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Backup(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Backup(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CloseTable(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CloseTable(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CloseTable(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CloseTable(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CloseTable(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;tablename&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateDataBase(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateDataBase(System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateDataBase(System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateDataBase(System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;tablename&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.String[])] Missing &lt;param name=&quot;TableCells&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;newuser&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;newpass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.CreateUser(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;passphrase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;alg&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;hashalg&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Decrypt(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;passphrase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.DeleteUser(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.DeleteUser(System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.DeleteUser(System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.DeleteUser(System.String,System.String,System.String)] Missing &lt;param name=&quot;deluser&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.EditUser(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.EditUser(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.EditUser(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.EditUser(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;newpass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.EditUser(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;passphrase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;rows&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;alg&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;hashalg&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Encrypt(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]},System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;passphrase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cell&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Find(System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.FindTable(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.FindTable(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.FindTable(System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.FindTable(System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.FindTable(System.String,System.String,System.String)] Missing &lt;param name=&quot;tablename&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetColumns(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;tablename&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetUserList(System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetUserList(System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetUserList(System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetUserList(System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetVersion] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.GetVersion] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.IsTableEncrypted(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;tablename&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListDatabases(System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListDatabases(System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListDatabases(System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListDatabases(System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTable(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Login(System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Login(System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Login(System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.Login(System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;param name=&quot;primkeys&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;root&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;recordtag&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerService.UpdateTable(System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.Object[]})] Missing &lt;param name=&quot;rows&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.IWhiteTigerServiceJson] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.AddColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.AddColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.AddRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.AddRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.AddRows(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.AddRows(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Backup(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Backup(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.CloseTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.CloseTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.CreateDataBase(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.CreateDataBase(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.CreateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.CreateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Decrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Decrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Decrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Encrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.Encrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.FindTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.FindTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.FindTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetFile(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetFile(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetFile(System.String)] Missing &lt;param name=&quot;Name&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetVersion] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.GetVersion] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.IsTableEncrypted(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.IsTableEncrypted(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.IsTableEncrypted(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.ListDatabases(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.ListDatabases(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.ListDatabases(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.ListTables(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.ListTables(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.ListTables(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.LoadTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.LoadTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.LoadTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.RemoveRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.RemoveRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.UpdateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.IWhiteTigerServiceJson.UpdateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.JsonContentTypeMapper] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.JsonContentTypeMapper.GetMessageFormatForContentType(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.JsonContentTypeMapper.GetMessageFormatForContentType(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.JsonContentTypeMapper.GetMessageFormatForContentType(System.String)] Missing &lt;param name=&quot;contentType&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.prefs.AllowServiceToCreateUser] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.prefs.Auto_Discovery] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.prefs.AutoBackup] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.prefs.UseCompressition] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.prefs.WindowsAutherication] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.program] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.program.errorreport(System.Exception)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.program.errorreport(System.Exception)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Tools] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;tablename&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.EncodeCompressData(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;compressdata&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Missing &lt;param name=&quot;tenum&quot;/&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetCryptographyAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.CryptograhyAlgorithm&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Missing &lt;param name=&quot;tenum&quot;/&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ResolveReferenceLinksComponent2: [M:White_Tiger.Tools.GetHashingAlgorythmEnum(System.String)] Unknown reference link target &#39;T:Hydrobase.Cryptography.HashingAlogrithm&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetUserRoleEnum(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetUserRoleEnum(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Tools.GetUserRoleEnum(System.String)] Missing &lt;param name=&quot;tenum&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.WhiteTigerService] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.#ctor(System.Boolean)] Missing &lt;param name=&quot;runtcpserver&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.WhiteTigerService.conf] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;param name=&quot;pass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.ListTables(System.String,System.String,System.String)] Missing &lt;param name=&quot;dbname&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.LoadTableAsFile(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.WhiteTigerService.pref] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerService.RemoveRow(System.String,System.String,System.String,System.String,System.Object[])] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.AddColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.AddColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.AddRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.AddRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.AddRows(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.AddRows(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Backup(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Backup(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.CloseTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.CloseTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.CreateDataBase(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.CreateDataBase(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.CreateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.CreateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Decrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Decrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Decrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Encrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Encrypt(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.FindTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.FindTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.FindTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetColumns(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetFile(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetFile(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetFile(System.String)] Missing &lt;param name=&quot;Name&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetVersion] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.GetVersion] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.IsTableEncrypted(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.IsTableEncrypted(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.IsTableEncrypted(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.ListDatabases(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.ListDatabases(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.ListDatabases(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.ListTables(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.ListTables(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.ListTables(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.LoadTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.LoadTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.LoadTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Login(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Login(White_Tiger.DataContracts.CommandModel)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.Login(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.RemoveRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.RemoveRow(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.UpdateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.WhiteTigerServiceJson.UpdateTable(White_Tiger.DataContracts.CommandModel)] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:White_Tiger.ClientManagement] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.ClientManagement.ClientManager] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.ClientManagement.ClientManager.ContactClient(White_Tiger.ClientManagement.enumMessage)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.ClientManagement.ClientManager.ContactClient(White_Tiger.ClientManagement.enumMessage)] Missing &lt;param name=&quot;mesg&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.ClientManagement.ClientManager.SearchClient(System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.ClientManagement.ClientManager.SearchClient(System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.ClientManagement.ClientManager.SearchClient(System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.ClientManagement.ClientManager.SearchClient(System.String,System.String)] Missing &lt;param name=&quot;table&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.ClientManagement.enumMessage] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.ClientManagement.IClientManager] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:White_Tiger.Commands] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Commands.CommandType] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateDatabase] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateDatabase] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateDatabase] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateDatabase] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateDatabase] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateDatabase] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateDatabase.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateDatabase.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateDatabase.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateDatabase.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateDatabase.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateDatabase.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.CreateTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.CreateTable.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.DecryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.DecryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.DecryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.DecryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.DecryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.DecryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.DecryptTable.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.EncryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.EncryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.EncryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.EncryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.EncryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.EncryptTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.EncryptTable.Version] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Commands.FindCommand] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.FindCommand] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.FindCommand] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.FindCommand] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.FindCommand] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.FindCommand] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.FindCommand] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Execute(System.String[])] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.FindCommand.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetColumns] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetColumns] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetColumns] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetColumns] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetColumns] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetColumns] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetColumns.Version] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Commands.GetVersion] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetVersion] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetVersion] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetVersion] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetVersion] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetVersion] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.GetVersion] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.GetVersion.Version] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Commands.isTableEncrypted] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.isTableEncrypted] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.isTableEncrypted] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.isTableEncrypted] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.isTableEncrypted] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.isTableEncrypted] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.isTableEncrypted] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Execute(System.String[])] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.isTableEncrypted.Version] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Commands.ListDatabases] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListDatabases] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListDatabases] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListDatabases] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListDatabases] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListDatabases] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListDatabases] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListDatabases.Version] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Commands.ListTables] Missing &lt;summary&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListTables] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListTables] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListTables] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListTables] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListTables] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.ListTables] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.ListTables.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.LoadTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.LoadTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.LoadTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.LoadTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.LoadTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.LoadTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Execute(System.String[])] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.LoadTable.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.Login] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.Login] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.Login] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.Login] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.Login] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.Login] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.Login.Version] Missing &lt;returns&gt; documentation
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.SaveTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.SaveTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.SaveTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.SaveTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.SaveTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:White_Tiger.Commands.SaveTable] Unknown reference link target &#39;T:White_Tiger.Commands.ICommand&#39;.
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Execute(System.String[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Execute(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Help] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Name] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Type] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Commands.SaveTable.Version] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [N:White_Tiger.DataContracts] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.DataContracts.CommandModel] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.algorith] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.commandname] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.data] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.dataformat] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.dbname] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.exception] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.friendlyerrormsg] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.hashalg] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.passphrase] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.password] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.recordtag] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.root] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.tablename] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:White_Tiger.DataContracts.CommandModel.username] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.DataContracts.RemoteFileInfo] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.DataContracts.RemoteFileInfo.error] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.DataContracts.RemoteFileInfo.FileByteStream] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.DataContracts.RemoteFileInfo.FileName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.DataContracts.RemoteFileInfo.Length] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:White_Tiger.Protocols.TCP] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Protocols.TCP.SocketPacket] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Protocols.TCP.SocketPacket.dataBuffer] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Protocols.TCP.SocketPacket.m_currentSocket] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.Protocols.TCP.TCPServer] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Protocols.TCP.TCPServer.defaultport] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.ExecuteCommand(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.ExecuteCommand(System.String)] Missing &lt;param name=&quot;comman&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.OnClientConnect(System.IAsyncResult)] Missing &lt;param name=&quot;asyn&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.OnDataReceived(System.IAsyncResult)] Missing &lt;param name=&quot;asyn&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [F:White_Tiger.Protocols.TCP.TCPServer.pfnWorkerCallBack] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.StartServer] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.StopServer] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.Protocols.TCP.TCPServer.WaitForData(System.Net.Sockets.Socket)] Missing &lt;param name=&quot;soc&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:White_Tiger.UserManagment] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:White_Tiger.UserManagment.RoleType] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)] Missing &lt;param name=&quot;description&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)] Missing &lt;param name=&quot;hidden&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.CreateUser(System.String,System.String,System.String,System.Boolean,System.String)] Missing &lt;param name=&quot;passphrase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.DeleteUser(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.DeleteUser(System.String,System.String,System.String)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.DeleteUser(System.String,System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.DeleteUser(System.String,System.String,System.String)] Missing &lt;param name=&quot;usertodelete&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;username&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;newpass&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;passphrase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.EditUser(System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;hidden&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;param name=&quot;domainName&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;param name=&quot;LogonType&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;param name=&quot;LogonProvider&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:White_Tiger.UserManagment.UserManager.LogonUser(System.String,System.String,System.String,System.Int32,System.Int32,System.IntPtr@)] Missing &lt;param name=&quot;phToken&quot;/&gt; documentation
+  Info: Processed 390 topic(s)
+  Info: 568 warning(s)
+  Diagnostic: CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
+  Diagnostic: CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  Diagnostic: ResolveReferenceLinksComponent2: New MSDN content ID cache size: 28 entries
+    Last step completed in 00:01:34.0054
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:01.3971
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.8.0
+Copyright ? 2006-2013, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1
+Processed 390 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Documentation.hhc
+
+Processing website files in D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website
+Processed 390 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\WebKI.xml
+Saving website table of contents to D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\WebTOC.xml
+    Last step completed in 00:00:04.2602
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_caution.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_note.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_security.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_adm.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_kw.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\box.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\box.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\Caution.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\CFW.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collall.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\collall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse_all.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycode.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycodeHighlight.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdown.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdownHover.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange_up.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpup.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\exp.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\exp.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expall.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\expall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expand_all.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1a.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1c.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\footer.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\footer.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\gradient.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greencheck.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greychck.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_prev_next.jpg -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\LastChild.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\load.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load_hover.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\note.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pencil.GIF -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privclass.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privdelegate.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenum.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenumeration.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privevent.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privextension.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privfield.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privinterface.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privmethod.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privproperty.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privstructure.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protclass.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protdelegate.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenum.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenumeration.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protevent.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protextension.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protfield.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protinterface.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protmethod.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protoperator.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protproperty.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protstructure.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubclass.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubdelegate.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenum.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenumeration.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubevent.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubextension.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubfield.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubinterface.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubmethod.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\puboperator.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubproperty.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubstructure.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1a.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1c.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\save.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save_hover.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\security.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1a.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1c.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\slMobile.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\static.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\xna.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CheckboxMenu.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CommonUtilities.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\Dropdown.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\EventUtilities.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_feedBack.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_manifold.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\SplitScreen.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Presentation.css -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Whidbey\Presentation.css -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\styles\Whidbey\Presentation.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_caution.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_note.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_security.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_adm.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\big_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\big_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\big_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_kw.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\big_kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\box.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\box.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\Caution.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\Caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\CFW.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collall.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\collall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse_all.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\collapse_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycode.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\copycode.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycodeHighlight.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\copycodeHighlight.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdown.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\dropdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdownHover.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\dropdownHover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\drpdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\drpdown_orange.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange_up.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\drpdown_orange_up.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpup.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\drpup.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\exp.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\exp.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expall.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\expall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expand_all.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\expand_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1a.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\filter1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1c.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\filter1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\footer.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\footer.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\gradient.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\gradient.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greencheck.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\greencheck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greychck.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\greychck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_prev_next.jpg -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\header_prev_next.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\header_sql_tutorial_blank.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\header_sql_tutorial_logo.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev_arch.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\kw_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\LastChild.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\LastChild.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\load.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load_hover.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\load_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\note.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pencil.GIF -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privclass.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privdelegate.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenum.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenumeration.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privevent.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privextension.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privfield.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privinterface.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privmethod.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privproperty.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privstructure.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protclass.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protdelegate.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenum.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenumeration.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protevent.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protextension.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protfield.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protinterface.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protmethod.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protoperator.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protproperty.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protstructure.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubclass.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubdelegate.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenum.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenumeration.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubevent.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubextension.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubfield.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubinterface.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubmethod.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\puboperator.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubproperty.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubstructure.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1a.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\requirements1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1c.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\requirements1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\save.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save_hover.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\save_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\security.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1a.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\seealso1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1c.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\seealso1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\slMobile.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\static.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\xna.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CheckboxMenu.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\CheckboxMenu.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CommonUtilities.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\CommonUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\Dropdown.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\Dropdown.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\EventUtilities.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\EventUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_feedBack.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\script_feedBack.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_manifold.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\script_manifold.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\SplitScreen.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\scripts\SplitScreen.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Presentation.css -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\styles\Presentation.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Whidbey\Presentation.css -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\styles\Whidbey\Presentation.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\CloseSearch.png -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\CloseSearch.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\CollapseAll.bmp -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\CollapseAll.bmp
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Collapsed.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Collapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\ExpandAll.bmp -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\ExpandAll.bmp
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Expanded.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Expanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\favicon.ico -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\FillNode.aspx -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\FillNode.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\FillNode.php -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\FillNode.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Index.aspx -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Index.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Index.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Index.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\index.html -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\index.php -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\index.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Item.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Item.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\LoadIndexKeywords.aspx -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\LoadIndexKeywords.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\LoadIndexKeywords.php -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\LoadIndexKeywords.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Search.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Search.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SearchHelp.aspx -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SearchHelp.inc.php -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SearchHelp.php -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Splitter.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Splitter.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\SyncTOC.gif -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\SyncTOC.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\TOC.css -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\TOC.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\TOC.js -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\TOC.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\Web\Web.Config -&gt; D:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\Website\.\Web.Config
+    Last step completed in 00:00:10.0076
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0280
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0310
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0730
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 14 seconds
+  
+  392	Topics
+  
+  4,889	Local links
+  
+  1,688	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\My Programs\dotNet\Open Source\White Tiger\White Tiger\Help\Working\Output\HtmlHelp1\Documentation.chm, 658,780 bytes
+  
+  Compression decreased file by 4,935,922 bytes.
+  
+    Last step completed in 00:00:20.4942
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0350
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:08.1665
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 500 files
+Copied 546 files for the website content
+    Last step completed in 00:00:02.5161
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:01.2271
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 02/15/2015 10:10 μμ.  Total time: 00:02:58,3742
+
+</buildStep>
+</shfbBuild>

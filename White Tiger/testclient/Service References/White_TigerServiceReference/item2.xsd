@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Hydrobase" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Hydrobase" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Cryptography.CryptograhyAlgorithm">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="rijdael" />
+      <xs:enumeration value="Custom" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Cryptography.CryptograhyAlgorithm" nillable="true" type="tns:Cryptography.CryptograhyAlgorithm" />
+  <xs:simpleType name="Cryptography.HashingAlogrithm">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SHA1" />
+      <xs:enumeration value="SHA384" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Cryptography.HashingAlogrithm" nillable="true" type="tns:Cryptography.HashingAlogrithm" />
+</xs:schema>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="White Tiger">
+</Property><Property Name="Solution File" Value="F:\My Programs\dotNet\Open Source\White Tiger\White Tiger.sln">
+</Property><Property Name="Date" Value="Σάββατο, 25 Σεπτεμβρίου 2010">
+</Property><Property Name="Time" Value="0:53 πμ">
+</Property></Properties><Event ErrorLevel="0" Project="White Tiger" Source="White Tiger\White Tiger.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="White Tiger" Source="White Tiger\White Tiger.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="testclient" Source="testclient\testclient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="testclient" Source="testclient\testclient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WhitetigerServer" Source="WhitetigerServer\WhitetigerServer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WhitetigerServer" Source="WhitetigerServer\WhitetigerServer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="White Tiger Managment" Source="White Tiger Managment\White Tiger Managment.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="White Tiger Managment" Source="White Tiger Managment\White Tiger Managment.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Getacess" Source="Getacess\Getacess.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Getacess" Source="Getacess\Getacess.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="White Tiger.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="White Tiger.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="White Tiger" Source="White Tiger\White Tiger.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="testclient" Source="testclient\testclient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WhitetigerServer" Source="WhitetigerServer\WhitetigerServer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="White Tiger Managment" Source="White Tiger Managment\White Tiger Managment.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Getacess" Source="Getacess\Getacess.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
