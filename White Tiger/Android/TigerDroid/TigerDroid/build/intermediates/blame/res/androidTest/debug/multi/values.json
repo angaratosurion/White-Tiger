@@ -1,0 +1,245 @@
+[
+    {
+        "outputFile": "G:\\AutoSyncWithParis-Server\\My Programs\\Android sdk projects\\TigerDroid\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\Android sdk projects\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 47,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 35,
+                    "endOffset": 134
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\Android sdk projects\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 35,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 139,
+                    "endColumn": 66,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\Android sdk projects\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 66,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endColumn": 45,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\Android sdk projects\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 45,
+                        "endOffset": 247
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\TigerDroid\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\TigerDroid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 47,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 35,
+                    "endOffset": 134
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\TigerDroid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 35,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 139,
+                    "endColumn": 66,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\TigerDroid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 66,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endColumn": 45,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\TigerDroid\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 45,
+                        "endOffset": 247
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 47,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 35,
+                    "endOffset": 134
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 35,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 139,
+                    "endColumn": 66,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 66,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endColumn": 45,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "G:\\AutoSyncWithParis-Server\\My Programs\\dotNet\\Open Source\\White Tiger\\White Tiger\\Android\\TigerDroid\\app\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 45,
+                        "endOffset": 247
+                    }
+                }
+            }
+        ]
+    }
+]
