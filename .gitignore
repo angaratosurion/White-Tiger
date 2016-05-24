@@ -8,7 +8,7 @@ Desktop.ini
 *.lock
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
+*/tmp/
 # Windows Installer files
 *.cab
 *.msi
