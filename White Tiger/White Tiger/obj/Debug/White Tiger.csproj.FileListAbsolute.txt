@@ -82,3 +82,40 @@ Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\
 Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.xml
 Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csprojResolveAssemblyReference.cache
 Y:\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\App.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\App.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WhiteTiger_Settings\roles.hbt
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WhiteTiger_Settings\users.hbt
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\licence.txt
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White_Tiger_Todo.txt
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\BugTracking_config.hbt
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\contact_config.hbt
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll.config
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Newtonsoft.Json.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\ICSharpCode.SharpZipLib.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Newtonsoft.Json.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.pdb
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.xml
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csprojResolveAssemblyReference.cache
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.dll
+G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.pdb
