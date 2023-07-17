@@ -119,3 +119,37 @@ G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tig
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csprojResolveAssemblyReference.cache
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.dll
 G:\AutoSyncWithParis-Server\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\App.config
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WhiteTiger_Settings\roles.hbt
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\WhiteTiger_Settings\users.hbt
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.config
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\licence.txt
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White_Tiger_Todo.txt
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\BugTracking_config.hbt
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\contact_config.hbt
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll.config
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\White Tiger.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Newtonsoft.Json.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Common.Logging.Core.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Hydrobase.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\NLog.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Aop.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Core.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.pdb
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\bin\Debug\Spring.Rest.xml
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csproj.AssemblyReference.cache
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csproj.CoreCompileInputs.cache
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.csproj.CopyComplete
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.dll
+D:\Cloud Folder\OneDrive\My Programs\dotNet\Open Source\White Tiger\White Tiger\White Tiger\obj\Debug\White Tiger.pdb
